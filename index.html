@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>النظام الأكاديمي الموحد | كلية علوم الحاسوب وتكنولوجيا المعلومات - جامعة كركوك</title>
+  <meta name="theme-color" content="#0F1A36">
+  <link rel="icon" type="image/png" href="img/college-logo.png">
+  <link rel="stylesheet" href="css/app.css?v=1">
+  <script>
+    // يُستبدل تلقائياً عند النشر التجريبي؛ عند التشغيل المحلي يبقى كما هو ويُستخدم نفس السيرفر
+    window.__API_BASE__ = '__PORT_3000__';
+  </script>
+</head>
+<body>
+  <div id="app" aria-live="polite">
+    <div class="boot">
+      <img src="img/college-logo.png" alt="" width="84" height="84">
+      <div class="boot-bar"><span></span></div>
+    </div>
+  </div>
+  <div id="toasts" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <script src="js/core.js?v=1"></script>
+  <script src="js/views-common.js?v=1"></script>
+  <script src="js/views-student.js?v=1"></script>
+  <script src="js/views-teaching.js?v=1"></script>
+  <script src="js/views-admin.js?v=1"></script>
+  <script>App.start();</script>
+</body>
+</html>
